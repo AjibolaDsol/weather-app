@@ -44,7 +44,7 @@ const handleSubmit = (e) =>{
         </Div>
 
       <SectionContainer>
-          {(apiData.cod !== '404') ? <WeatherDisplay data={apiData}/>: <div>Error 404.....Pls type in a valid city or country</div>}
+          {(apiData.cod !== '404') ? <WeatherDisplay data={apiData}/>: <div>Error 404......Pls type in a valid city or country</div>}
       </SectionContainer>
     </div>
   )
